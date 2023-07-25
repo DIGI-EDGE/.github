@@ -24,7 +24,7 @@ Our organization aims to provide a comprehensive suite of services that enable s
 
 5. **Rule Engine**
    - Repository: `DPE-RULE-ENGINE`
-   - Description: The `DPE-RULE-ENGINE` repository hosts the service responsible for managing and executing business rules and logic within our system. This service plays a crucial role in automating decisions, actions, and data processing based on predefined rules and conditions.
+   - Description: The `DPE-RULE-ENGINE` repository hosts the service responsible for decoding incoming data based on stored decoders, managing and executing business rules and logic within our system. This service plays a crucial role in automating decisions, actions, and data processing based on predefined rules and conditions.
 
 6. **Real time forwarding**
    - Repository: `DPE-REAL-TIME`
@@ -33,6 +33,10 @@ Our organization aims to provide a comprehensive suite of services that enable s
 7. **External brokers forwarding**
    - Repository: `DPE-MQTT-FWD`
    - Description: The `DPE-MQTT-FWD` repository holds the code for the service responsible for forwarding processed data to an external MQTT broker. This allows integration with external systems and dashboards.
+
+![DIGI-EDGE Schema Flow](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DEVICE.png)
+
+![DIGI-EDGE Schema Flow](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DECODER.png)
 
 ## Getting Started
 
