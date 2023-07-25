@@ -1,6 +1,6 @@
 # DIGI-EDGE
 
-Welcome to the DIGI-EDGE organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-DECODER, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and rule engine sevice. Below you'll find an overview of the organization and a brief description of each repository.
+Welcome to the DIGI-EDGE organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-RULE-ENGINE, DPE-REAL-TIME, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and rule engine sevice. Below you'll find an overview of the organization and a brief description of each repository.
 
 ## Overview
 
@@ -22,13 +22,13 @@ Our organization aims to provide a comprehensive suite of services that enable s
    - Repository: `DPE-MQTT-QUEUE`
    - Description: This repository hosts the service responsible for forwarding data arrived via MQTT protocol to a RabbitMQ queue.
 
-5. **Decoder**
-   - Repository: `DPE-DECODER`
-   - Description: The `DPE-DECODER` repository contains the code for decoding incoming data from the serial port. It converts raw data into a human-readable format for further processing.
-
-6. **Rule Engine**
+5. **Rule Engine**
    - Repository: `DPE-RULE-ENGINE`
    - Description: The `DPE-RULE-ENGINE` repository hosts the service responsible for managing and executing business rules and logic within our system. This service plays a crucial role in automating decisions, actions, and data processing based on predefined rules and conditions.
+
+6. **Real time forwarding**
+   - Repository: `DPE-REAL-TIME`
+   - Description: The `DPE-REAL-TIME` repository contains the codebase for our Real-Time Data Dashboard Service. It acts as a bridge between the backend processing services and the frontend application, ensuring that real-time data updates are efficiently delivered to the user's dashboard.
 
 7. **External brokers forwarding**
    - Repository: `DPE-MQTT-FWD`
@@ -44,7 +44,9 @@ To get started with any of our services, follow the steps below:
 
 3. Ensure you have the necessary dependencies and requirements installed as specified in each repository's documentation.
 
-4. Run the services in the recommended order to establish communication and interaction between them. Typically, the flow would be from the `DPE-SERIAL-QUEUE` or `DPE-MQTT-QUEUE` through `DPE-BACK` to either the `DPE-DECODER` and `DPE-RULE-ENGINE` service and then finally to the `DPE-MQTT-FWD`.
+4. Run the services in the recommended order to establish communication and interaction between them. Typically, the flow would be from the `DPE-SERIAL-QUEUE` or `DPE-MQTT-QUEUE` through `DPE-BACK` to either the `DPE-RULE-ENGINE` service and then finally to the `DPE-MQTT-FWD` and `DPE-REAL-TIME`.
+
+![DIGI-EDGE Schema Flow](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE.png)
 
 5. Contribute to the repositories by creating pull requests for new features, bug fixes, or improvements. Please adhere to our code style guidelines and submit well-documented code.
 
