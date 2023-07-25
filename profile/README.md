@@ -34,9 +34,9 @@ Our organization aims to provide a comprehensive suite of services that enable s
    - Repository: `DPE-MQTT-FWD`
    - Description: The `DPE-MQTT-FWD` repository holds the code for the service responsible for forwarding processed data to an external MQTT broker. This allows integration with external systems and dashboards.
 
-![DIGI-EDGE Manage Device](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DEVICE.png)
+![DIGI-EDGE Manage Device](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DEVICE.PNG)
 
-![DIGI-EDGE Manage Decoder](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DECODER.png)
+![DIGI-EDGE Manage Decoder](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DECODER.PNG)
 
 ## Getting Started
 
