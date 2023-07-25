@@ -1,6 +1,6 @@
 # DIGI-EDGE
 
-Welcome to the DIGI-EDGE GitHub organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-DECODER, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and rule engine sevice. Below you'll find an overview of the organization and a brief description of each repository.
+Welcome to the DIGI-EDGE organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-DECODER, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and rule engine sevice. Below you'll find an overview of the organization and a brief description of each repository.
 
 ## Overview
 
