@@ -1,6 +1,6 @@
 # DIGI-EDGE
 
-Welcome to the DIGI-EDGE organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-RULE-ENGINE, DPE-REAL-TIME, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and rule engine sevice. Below you'll find an overview of the organization and a brief description of each repository.
+Welcome to the DIGI-EDGE organization! This organization houses multiple repositories that contain various services designed to interact with each other in order to collect data from multiple devices using serial port or MQTT protocol and forward the decoded data to external MQTT brokers. Our projects include DPE-FRONT, DPE-BACK, DPE-RULE-ENGINE, DPE-REAL-TIME, services that forward data from a serial port or via MQTT to a RabbitMQ queue and forward data to an external MQTT broker, and frame generating service. Below you'll find an overview of the organization and a brief description of each repository.
 
 ## Overview
 
@@ -33,6 +33,10 @@ Our organization aims to provide a comprehensive suite of services that enable s
 7. **External brokers forwarding**
    - Repository: `DPE-MQTT-FWD`
    - Description: The `DPE-MQTT-FWD` repository holds the code for the service responsible for forwarding processed data to an external MQTT broker. This allows integration with external systems and dashboards.
+
+8. **Frame generating**
+   - Repository: `DPE-TRAM-GEN`
+   - Description: The `DPE-TRAM-GEN` repository hosts the service responsible for generating frames following a standard protocol. These frames typically consist of a header, a body, and additional fields, such as length indicators and CRC (Cyclic Redundancy Check) for error checking and data integrity.
 
 ![DIGI-EDGE Manage Device](https://github.com/DIGI-EDGE/.github/blob/main/profile/DIGIEDGE-MANAGE-DEVICE.PNG)
 
